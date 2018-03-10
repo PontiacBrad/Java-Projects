@@ -1,4 +1,8 @@
-
+/**
+ * 
+ * @author Bradley
+ *This program tests the incrementing features of Java
+ */
 public class IncrementDemo 
 {
 	public static void main(String[] args)

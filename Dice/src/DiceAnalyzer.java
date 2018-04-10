@@ -23,7 +23,7 @@ public class DiceAnalyzer
  * 				2: 2
  * 				3: 1
  * 				4: 3
- * 				5: 5
+ * 				5: 3
  * 				6: 2
  * 		These are correct values
  */

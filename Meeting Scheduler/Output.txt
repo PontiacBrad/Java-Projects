@@ -1,0 +1,125 @@
+Advisor: Brian Springer
+Student Name         Location   Time       
+Piers Knox           SC104      October 20 at  1:45
+Dominic Hemmings     SC104      October 19 at  9:30
+Rose Dyer            SC104      October 21 at  3:15
+Ella Coleman         SC104      October 19 at  9:00
+Harry Butler         SC104      October 19 at 10:00
+Rachel Metcalfe      SC104      October 19 at 10:15
+Joshua Brown         SC104      October 21 at  3:45
+Edward Gray          SC104      October 21 at  3:30
+Ella Black           SC104      October 19 at 10:45
+Samantha Kelly       SC104      October 20 at  1:15
+Jake Poole           SC104      October 20 at  1:30
+
+Advisor: Elizabeth Short
+Student Name         Location   Time       
+Claire Blake         AB12       October 19 at  4:00
+Jake Jackson         AB12       October 20 at  8:45
+Jessica Buckland     AB12       October 19 at  4:15
+Paul Greene          AB12       October 20 at  8:30
+Diane Robertson      AB12       October 19 at 10:00
+Victoria Lewis       AB12       October 21 at 11:30
+Grace Sanderson      AB12       October 19 at 10:45
+John Dickens         AB12       October 21 at 11:15
+Charles Anderson     AB12       October 19 at 10:15
+Michael Edmunds      AB12       October 19 at 10:30
+Blake Vance          AB12       October 21 at 11:00
+Felicity Lambert     AB12       October 20 at  8:00
+
+Advisor: Julian Ogden
+Student Name         Location   Time       
+Sophie Alsop         CD42       October 21 at  2:00
+Adrian Mackenzie     CD42       October 20 at  9:00
+Virginia Bailey      CD42       October 19 at  9:00
+Warren Johnston      CD42       October 21 at  2:30
+Ruth Avery           CD42       October 20 at  9:30
+Amanda Hunter        CD42       October 19 at  9:30
+Jennifer Watson      CD42       October 20 at  9:45
+Vanessa Sharp        CD42       October 21 at  9:45
+Wanda Wright         CD42       October 19 at  9:15
+Sean McGrath         CD42       October 21 at  9:00
+Hannah Peake         CD42       October 19 at  9:45
+
+Advisor: Robert Anderson
+Student Name         Location   Time       
+Keith Wilkins        WRT005     October 20 at  4:15
+Jack Graham          WRT005     October 19 at 11:30
+Neil Watson          WRT005     October 19 at 11:45
+Carol Morrison       WRT005     October 19 at 10:15
+Simon Ball           WRT005     October 21 at  9:30
+Chloe Tucker         WRT005     October 19 at 10:30
+Heather Powell       WRT005     October 20 at  4:00
+Olivia Ball          WRT005     October 19 at 11:15
+Sue Wilson           WRT005     October 20 at  4:45
+Carl Peters          WRT005     October 19 at 10:45
+
+Advisor: Nicola Wright
+Student Name         Location   Time       
+Sean Clark           ABC12      October 21 at 10:45
+Peter MacDonald      ABC12      October 20 at  3:30
+Penelope Burgess     ABC12      October 21 at 10:00
+Adam Parr            ABC12      October 19 at  2:15
+Jason McLean         ABC12      October 19 at  2:00
+Virginia Newman      ABC12      October 20 at  3:00
+Boris Burgess        ABC12      October 20 at  3:45
+Jan Smith            ABC12      October 21 at 10:15
+Amelia Ogden         ABC12      October 19 at  9:30
+Hannah Mackay        ABC12      October 19 at  2:30
+Steven May           ABC12      October 20 at  3:15
+Alan Underwood       ABC12      October 19 at  9:45
+
+Advisor: Liam Mackay
+Student Name         Location   Time       
+Anne Poole           CC42       October 20 at 12:00
+Claire Langdon       CC42       October 20 at 12:15
+Anna Gibson          CC42       October 19 at 11:30
+Colin MacDonald      CC42       October 21 at 10:45
+Katherine Berry      CC42       October 21 at 10:15
+Claire Duncan        CC42       October 21 at 10:00
+John Taylor          CC42       October 20 at  1:30
+Tim Vance            CC42       October 20 at 12:45
+Carolyn Mitchell     CC42       October 20 at  1:00
+
+Advisor: Adrian Harris
+Student Name         Location   Time       
+Sophie Carr          AB1020     October 19 at  8:15
+Jacob Cornish        AB1020     October 19 at  4:00
+Zoe Lambert          AB1020     October 20 at 11:15
+Joan Graham          AB1020     October 21 at  9:45
+Karen Miller         AB1020     October 19 at  4:15
+Stewart Bailey       AB1020     October 20 at 11:00
+Wanda Hughes         AB1020     October 19 at  4:45
+Joshua Dickens       AB1020     October 19 at  4:30
+Dorothy Marshall     AB1020     October 19 at  8:45
+Gabrielle Hill       AB1020     October 21 at  9:30
+
+Advisor: Brian Lewis
+Student Name         Location   Time       
+Steven Martin        SC218      October 21 at  4:00
+Eric Metcalfe        SC218      October 19 at  2:45
+Kevin Hughes         SC218      October 21 at  4:45
+Luke Butler          SC218      October 21 at  8:00
+Anna Thomson         SC218      October 21 at  8:30
+Felicity MacDonald   SC218      October 21 at  8:15
+Gabrielle Clark      SC218      October 21 at  4:15
+Charles Nolan        SC218      October 19 at  2:00
+Vanessa Scott        SC218      October 20 at  1:45
+Maria Buckland       SC218      October 20 at  1:30
+Ryan Pullman         SC218      October 20 at  1:15
+Oliver Brown         SC218      October 19 at  2:15
+
+These students were not scheduled: 
+Bella Bower
+Audrey Morgan
+Caroline Hunter
+Angela Robertson
+Richard Randall
+
+These advisors have unscheduled students: 
+Brian Springer
+Julian Ogden
+Nicola Wright
+Liam Mackay
+Robert Anderson
+

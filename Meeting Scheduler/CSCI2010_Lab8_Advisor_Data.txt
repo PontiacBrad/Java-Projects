@@ -1,0 +1,10 @@
+FIRST     ALAST     AOFFICE     Atime1    Atime2    Atime3    Atime4
+Brian     Springer  SC104       101909    101910    102001    102103
+Elizabeth Short     AB12        101910    101904    102008    102111
+Julian    Ogden     CD42        101909    102009    102109    102102
+Robert    Anderson  WRT005      101910    101911    102004    102109
+Nicola    Wright    ABC12       101909    101902    102003    102110
+Liam      Mackay    CC42        101911    102012    102001    102110
+Adrian    Harris    AB1020      101908    101904    102011    102109
+Brian     Lewis     SC218       101902    102001    102108    102104
+$

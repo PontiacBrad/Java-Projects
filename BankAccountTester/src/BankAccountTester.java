@@ -1,11 +1,10 @@
+import java.util.Scanner;
 /*
  * Author: Bradley Gray with methods from Horstmann text
-*1-28-15
+*6-10-18
 *Requirements: This program shall
 *	1. create a bank account
-*	2. deposit $1000
-*	3. withdraw a total of $900
-*	4. display the remaining balance and expected outcome
+*	2. Prompt user to deposit and withdraw money
 *Design: One class with several methods from the text with 
 *		 one main method implementing them. 
 */
@@ -41,17 +40,15 @@ public class BankAccountTester
 	}
 	public static void main(String[] args)
 	{
+		Scanner input = new Scanner(System.in);
 		BankAccountTester myAccount = new BankAccountTester(0);
-		myAccount.deposit(1000);
-		myAccount.withdraw(500);
-		myAccount.withdraw(400);
+		System.out.print("Enter amount to deposit: ");
+		myAccount.deposit(input.nextDouble());
+		System.out.print("Enter amount to withdraw: ");
+		myAccount.withdraw(input.nextDouble());
+		System.out.print("Enter another amount to withdraw: ");
+		myAccount.withdraw(input.nextDouble());
 		System.out.print("The balance is ");
 		System.out.println(myAccount.getBalance());
-		System.out.println("The expected amount is 100");
 	}
-	}
-/*
- *Test: The program outputs 100.  
- *		That is equal to the expected amount. 
- */
-	
+}	

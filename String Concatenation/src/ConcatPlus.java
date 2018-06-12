@@ -1,3 +1,4 @@
+import java.util.Scanner;
 /**
  * This program explores the String class and its methods
  * @author Bradley
@@ -7,11 +8,16 @@ public class ConcatPlus
 {
 	public static void main(String[] args)
 	{
-		String animal1 = "quick brown fox";
-		String animal2 = "lazy dog";
-		String article = "the ";
-		String action = " jumps over ";
-		String sentence = article.concat(animal1).concat(action).concat(animal2);
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter an animal: ");
+		String animal1 = input.nextLine();
+		System.out.print("Enter another animal: ");
+		String animal2 = input.nextLine();
+		System.out.print("Enter an article: ");
+		String article = input.nextLine();
+		System.out.print("Enter a verb: ");
+		String action = input.nextLine();
+		String sentence = article.concat(" ").concat(animal1).concat(" ").concat(action).concat(" ").concat(article).concat(" ").concat(animal2);
 		sentence = sentence.toUpperCase();
 		int l = sentence.length();
 		System.out.println(sentence);

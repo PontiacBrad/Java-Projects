@@ -2,7 +2,6 @@ public class Conversion
 {
 	public static void main(String[] args)
 	{
-		System.out.println("~~~String Conversion Program~~~");
 		String value1 = "12345";
 		String value2 = "12.345";
 		String value3 = "87654";

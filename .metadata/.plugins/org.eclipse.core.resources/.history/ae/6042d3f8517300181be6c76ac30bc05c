@@ -1,5 +1,6 @@
 import java.util.Scanner;
 /**
+ * 
  * @author Bradley
  *This class prints the smallest of a list of entered Integers
  */
@@ -15,7 +16,6 @@ public class SmallestInt
 		int val4 = in.nextInt();
 		System.out.println("The values are: " + val1 + ", " + val2 + ", " + val3 + ", " + val4);
 		int small = val1;
-		
 		if(val2 < small)
 		{
 			small = val2;
@@ -28,21 +28,6 @@ public class SmallestInt
 		{
 			small = val4;
 		}
-		int max = val1;
-		
-		if(val2 > max)
-		{
-			max = val2;
-		}
-		if(val3 > max)
-		{
-			max = val3;
-		}
-		if(val4 > max)
-		{
-			max = val4;
-		}
 		System.out.println("The smallest is " + small);
-		System.out.println("The largest is " + max);
 	}
 }

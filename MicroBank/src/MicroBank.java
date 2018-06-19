@@ -19,49 +19,36 @@ import java.util.Scanner;
 public class MicroBank 
 {
 	 public static void main(String[] args)
-		{
-		 	Scanner in = new Scanner(System.in);
+	{
+	 	Scanner in = new Scanner(System.in);
+	 	System.out.println("Please enter either deposit or withdraw and an amount for Bradley's account: (enter end to quit)");
+	 	MicroBankCalculator account1 = new MicroBankCalculator();
+	 	
+	 	while(in.hasNext())
+	 	{
+		 	String command = in.next();
 		 	
-		 	System.out.println("Enter the deposit amount for Bradley's account:");
-		 	double p1 = in.nextDouble();
-		 	System.out.println("Enter the interest rate for Bradley's account:");
-		 	double r1 = in.nextDouble();
-		 	
-		 	MicroBankCalculator account1 = new MicroBankCalculator(p1, r1);
-		 	double amount1 = MicroBankCalculator.getBalance();
-		 	
-		 	System.out.println("Enter the deposit amount for Johnathan's account:");
-		 	p1 = in.nextDouble();
-		 	System.out.println("Enter the interest rate for Johnathan's account:");
-		 	r1 = in.nextDouble();
-		 	
-		 	MicroBankCalculator account2 = new MicroBankCalculator(p1, r1);
-		 	double amount2 = MicroBankCalculator.getBalance();
-		 	
-			System.out.println("Enter the deposit amount for Lou's account:");
-		 	p1 = in.nextDouble();
-		 	System.out.println("Enter the interest rate for Lou's account:");
-		 	r1 = in.nextDouble();
-		 	
-		 	MicroBankCalculator account3 = new MicroBankCalculator(p1, r1);
-		 	double amount3 = MicroBankCalculator.getBalance();
-		 	
-			System.out.println("Enter the deposit amount for Mr. Grey's account:");
-		 	p1 = in.nextDouble();
-		 	System.out.println("Enter the interest rate for Mr. Grey's account:");
-		 	r1 = in.nextDouble();
-		 	
-		 	MicroBankCalculator account4 = new MicroBankCalculator(p1, r1);
-		 	double amount4 = MicroBankCalculator.getBalance();
-		 	
-			System.out.println("Bradley's Account: " + amount1);
-			System.out.println("Johnathan's Account: " + amount2);
-			System.out.println("Lou's Account: " + amount3);
-			System.out.println("Mr. Grey's Account: " + amount4);
-			
-		}
-	
-		}
+		 	if(command.equalsIgnoreCase("deposit"))
+		 	{
+			 	double p1 = in.nextDouble();	
+			 	account1.deposit(p1);
+			 	double amount1 = MicroBankCalculator.getBalance();	
+			 	System.out.println("The balance for Bradley's account is " + amount1);
+		 	}
+		 	else if(command.equalsIgnoreCase("withdraw"))
+		 	{
+		 		double p1 = in.nextDouble();
+		 		account1.withdraw(p1);
+		 		double amount1 = MicroBankCalculator.getBalance();		
+			 	System.out.println("The balance for Bradley's account is " + amount1);
+		 	}
+		 	else
+		 	{
+		 		break;
+		 	}
+	 	}	
+	}
+}
  /* Test: the program accepts my inputs and 
   * 	produces realistic output for each bank account
   * 

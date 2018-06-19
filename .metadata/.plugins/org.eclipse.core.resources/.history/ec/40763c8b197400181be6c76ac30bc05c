@@ -1,0 +1,45 @@
+import java.awt.BasicStroke;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Point;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+/**
+ * This class constructs two points and then finds the distance between the two.
+ * 
+ * @author Bradley 
+ * @version 3/9/18
+ * Requirements:
+ *      This program shall
+ *          1. construct two points on a coordinate plan
+ *          2. find the distance between the two points
+ *          3. display the distance and the expected value
+ */
+public class Tester extends JPanel
+{
+	public void paintComponent(Graphics g) {
+		super.paintComponent(g);
+
+	    Graphics2D g2d = (Graphics2D) g;
+
+	    g2d.drawLine(30, 40, -300, -40);
+
+	    g2d.drawLine(3, 4, -3, -4);
+    }
+    public  static void main(String[] args)
+    {
+    	Point p1 = new Point(3,4);
+    	Point p2 = new Point(-3,-4);
+    	System.out.println("Distance is " + p1.distance(p2));
+    	System.out.println("Expected value is 10");
+    	Tester tester = new Tester();
+    	JFrame frame = new JFrame();
+	    frame.add(tester);
+    	frame.setSize(700, 500);
+		frame.setLocation(400, 100);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setTitle("2D Points");
+		frame.setVisible(true);
+    }
+}

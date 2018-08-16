@@ -1,0 +1,55 @@
+import java.awt.Container;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+
+import javax.swing.*;
+
+public class SimpleEx extends JFrame
+{
+	public SimpleEx()
+	{
+		initUI();
+	}
+	
+	public void initUI()
+	{
+		JButton addButton = new JButton("ADD");
+		JTextField num1 = new JTextField();
+		JTextField num2 = new JTextField();
+		JTextField answer = new JTextField();
+		
+		addButton.addActionListener((ActionEvent event) -> {
+			answer.setText(Double.toString(addNumbers(Double.parseDouble(num1.getText()), Double.parseDouble(num2.getText()))));
+		});
+		
+		createLayout(addButton, num1, num2, answer);
+		
+		setTitle("Swing Example");
+		//setSize(300, 300);
+		setLocationRelativeTo(null);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+	
+	public static void main(String[] args)
+	{
+		SimpleEx swingFrame = new SimpleEx();
+		swingFrame.setVisible(true);
+	}
+	
+	public void createLayout(JComponent... args)
+	{
+		Container pane = getContentPane();
+		GridLayout g1 = new GridLayout(2, 2);
+		pane.setLayout(g1);
+		
+		pane.add(args[1]);
+		pane.add(args[2]);
+		pane.add(args[0]);
+		pane.add(args[3]);
+	}
+	
+	public double addNumbers(double num1, double num2)
+	{
+		return num1 + num2;
+	}
+}

@@ -1,0 +1,24 @@
+import javax.swing.*;
+
+public class SimpleEx extends JFrame
+{
+	public SimpleEx()
+	{
+		initUI();
+	}
+	
+	public void initUI()
+	{
+		setTitle("Swing Example");
+		setSize(300, 300);
+		setLocationRelativeTo(null);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+	
+	public static void main(String[] args)
+	{
+		SimpleEx swingFrame = new SimpleEx();
+		swingFrame.setVisible(true);
+	}
+	
+}

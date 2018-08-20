@@ -1,0 +1,55 @@
+import java.util.Scanner;
+/*
+ * Author: Bradley Gray with methods from Horstmann text
+*6-10-18
+*Requirements: This program shall
+*	1. create a bank account
+*	2. Prompt user to deposit and withdraw money
+*Design: One class with several methods from the text with 
+*		 one main method implementing them. 
+*/
+public class BankAccountTester
+{
+	private double balance;
+	
+	//Instantiates a Bank Account Tester with a default balance of 0
+	public BankAccountTester()
+	{
+		balance = 0;
+	}
+	//Instantiates a Bank Account Tester with an amout equal to intitalBalance
+	public BankAccountTester(double initialBalance)
+	{
+		double initaialBalance = 0;
+		balance = initaialBalance;
+	}
+	//Deposits the specified amount into the bank account
+	public void deposit(double amount)
+	{
+		balance = balance + amount;
+		System.out.printf("The balance is $%.2f\n", balance);
+	}
+	//Withdraws the requested amount from the bank account
+	public void withdraw(double amount)
+	{
+		balance = balance - amount;
+	}
+	//Returns the current balance of the bank account
+	public double getBalance()
+	{
+		return balance;
+	}
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		BankAccountTester myAccount = new BankAccountTester(0);
+		System.out.print("Enter amount to deposit: ");
+		myAccount.deposit(input.nextDouble());
+		System.out.print("Enter amount to withdraw: ");
+		myAccount.withdraw(input.nextDouble());
+		System.out.print("Enter another amount to withdraw: ");
+		myAccount.withdraw(input.nextDouble());
+		System.out.print("The balance is ");
+		System.out.println(myAccount.getBalance());
+	}
+}	

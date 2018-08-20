@@ -27,11 +27,13 @@ public class BankAccountTester
 	public void deposit(double amount)
 	{
 		balance = balance + amount;
+		System.out.printf("The balance is $%.2f\n", balance);
 	}
 	//Withdraws the requested amount from the bank account
 	public void withdraw(double amount)
 	{
 		balance = balance - amount;
+		System.out.printf("The balance is $%.2f\n", balance);
 	}
 	//Returns the current balance of the bank account
 	public double getBalance()
@@ -48,7 +50,5 @@ public class BankAccountTester
 		myAccount.withdraw(input.nextDouble());
 		System.out.print("Enter another amount to withdraw: ");
 		myAccount.withdraw(input.nextDouble());
-		System.out.print("The balance is ");
-		System.out.println(myAccount.getBalance());
 	}
 }	

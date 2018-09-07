@@ -1,31 +1,31 @@
+import java.util.Scanner;
+
 public class Conversion 
 {
 	public static void main(String[] args)
 	{
-		System.out.println("~~~String Conversion Program~~~");
-		String value1 = "12345";
-		String value2 = "12.345";
-		String value3 = "87654";
-		String value4 = "321";
-		String value5 = "-28";
-		String value6 = "6";
-		String value7 = "true";
-		String value8 = "-45.237";
+		System.out.println("~~~String Conversion Program~~~\nEnter a number to convert: ");
+		Scanner in = new Scanner(System.in);
+		String value1 = in.next();
 		Integer a = Integer.valueOf(value1);
-		Double b = Double.valueOf(value2);
-		Long c = Long.valueOf(value3);
-		Short d = Short.valueOf(value4);
-		Byte e = Byte.valueOf(value5);
-		char f = value6.charAt(0);
-		Boolean g = Boolean.valueOf(value7);
-		Float h = Float.valueOf(value8);
+		Double b = Double.valueOf(value1);
+		Long c = Long.valueOf(value1);
+		Short d = Short.valueOf(value1);
+		Byte e;
+		if(a > -129 && a < 128)
+		{
+			e = Byte.valueOf(value1);
+		}
+		else
+		{
+			e = null;
+		}
+		Float h = Float.valueOf(value1);
 		System.out.println("integer = " + a);
 		System.out.println("double = " + b);
 		System.out.println("long = " + c);
 		System.out.println("short = " + d);
 		System.out.println("byte = " + e);
-		System.out.println("char = " + f);
-		System.out.println("boolean = " + g);
 		System.out.println("float = " + h);
 	}
 }

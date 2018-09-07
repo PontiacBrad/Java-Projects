@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Conversion 
+{
+	public static void main(String[] args)
+	{
+		System.out.println("~~~String Conversion Program~~~\nEnter a number to convert: ");
+		Scanner in = new Scanner(System.in);
+		String value1 = in.next();
+		Integer a = Integer.valueOf(value1);
+		Double b = Double.valueOf(value1);
+		Long c = Long.valueOf(value1);
+		Short d = Short.valueOf(value1);
+		Float h = Float.valueOf(value1);
+		System.out.println("integer = " + a);
+		System.out.println("double = " + b);
+		System.out.println("long = " + c);
+		System.out.println("short = " + d);
+		System.out.println("float = " + h);
+	}
+}
